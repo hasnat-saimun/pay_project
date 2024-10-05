@@ -21,7 +21,7 @@
               text-align:center;
             }
             .fixed-margin{
-              margin-top: 7rem !important;
+              margin-top: 7rem;
             }
             @media only screen and (max-width: 767px) {
               .fixed-margin{
