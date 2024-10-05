@@ -17,8 +17,9 @@
                 vertical-align: -.1875em;
             }
             .service img{
-              height: 250px;
+              height: 220px;
               text-align:center;
+              padding:2rem;
             }
             .fixed-margin{
               margin-top: 7rem;
@@ -38,7 +39,7 @@
                 vertical-align: -.1875em;
               }
               .service img {
-                height: 175px !important;
+                height: 185px !important;
                 text-align:center;
               }
             }
