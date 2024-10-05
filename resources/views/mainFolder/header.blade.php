@@ -25,7 +25,7 @@
             }
             @media only screen and (max-width: 767px) {
               .fixed-margin{
-                margin-top: 9rem !important;
+                margin-top: 12rem !important;
               }
                 
               .p-icon{
@@ -51,7 +51,7 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow mb-2">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-6 col-md-2 mx-auto">
+                    <div class="col-6 col-md-2 mx-auto text-center">
                         <a class="navbar-brand" href="#">
                           <img src="{{ asset('/public/assets/img') }}/logo.png" alt="" class="w-50">
                         </a>
