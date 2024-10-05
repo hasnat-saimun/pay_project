@@ -16,7 +16,7 @@
                 line-height: .03125em;
                 vertical-align: -.1875em;
             }
-            @media only screen and (min-width: 767px) {
+            @media only screen and (max-width: 767px) {
                 .fixed-margin{
                     margin-top:5rem !important;
                 }
