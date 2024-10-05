@@ -9,17 +9,38 @@
         <script src="https://kit.fontawesome.com/32dcd4a478.js" crossorigin="anonymous"></script>
         <style>
             .p-icon{
-                padding: 4.5rem 2rem !important;
+                padding: 3.5rem 2rem !important;
             }
             .fa-5xl{
-                font-size: 5em;
+                font-size: 4em;
                 line-height: .03125em;
                 vertical-align: -.1875em;
             }
+            .service img{
+              height: 250px;
+              text-align:center;
+            }
+            .fixed-margin{
+              margin-top: 7rem !important;
+            }
             @media only screen and (max-width: 767px) {
-                .fixed-margin{
-                    margin-top:5rem !important;
-                }
+              .fixed-margin{
+                margin-top: 9rem !important;
+              }
+                
+              .p-icon{
+                padding: 3rem 2rem !important;
+              }
+                
+              .fa-5xl{
+                font-size: 3em;
+                line-height: .03125em;
+                vertical-align: -.1875em;
+              }
+              .service img {
+                height: 175px !important;
+                text-align:center;
+              }
             }
             a{
                 text-decoration:none;
@@ -31,7 +52,9 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-6 col-md-2 mx-auto">
-                        <a class="navbar-brand" href="#"><img src="{{ asset('/public/assets/') }}/logo.png" alt="" class="w-75"></a>
+                        <a class="navbar-brand" href="#">
+                          <img src="{{ asset('/public/assets/img') }}/logo.png" alt="" class="w-50">
+                        </a>
                     </div>
                     <div class="col-12 col-md-10 mx-auto">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,103 +86,122 @@
                 </div>
             </div>
         </nav>
-        <div class="container text-center mt-5 fixed-margin">
-            <div class="row pt-5">
+        <div class="container text-center fixed-margin">
+            <div class="row">
                 <div class="col-6 col-md-4 mt-3">
+                  <a href="">
                     <div class="card text-bg-light">
-                        <div class="row p-4">
-                            <div class="col-md-12">
-                                <i class="fa-brands fa-servicestack fa-5xl bg-info bg-primary text-white p-icon rounded-circle" style="color: #ffffff;"></i>
+                        <div class="row">
+                            <div class="col-md-12 service d-none d-md-block">
+                              <img class="rounded-circle shadow-1-strong w-75"
+                                  src="{{ asset('/public/assets/img') }}/school.png" alt="avatar" />
                             </div>
-                            <div class="col-md-12 text-uppercase fw-semibold">
-                                Service
+                            <div class="col-12 service d-block d-md-none">
+                              <img class="rounded-circle shadow-1-strong w-100 d-block d-md-none"
+                                  src="{{ asset('/public/assets/img') }}/school.png" alt="avatar" />
+                            </div>
+                            <div class="col-md-12 text-uppercase fw-semibold mb-4">
+                              স্কুল ম্যানেজমেন্ট
                             </div>
                         </div>
                     </div>
+                  </a>
                 </div>
                 <div class="col-6 col-md-4 mt-3">
+                  <a href="">
                     <div class="card text-bg-light">
-                        <div class="row p-4">
-                            <div class="col-md-12">
-                                <i class="fa-light fa-hospital fa-5xl bg-success bg-primary text-white p-icon rounded-circle" style="color: #ffffff;"></i>
+                        <div class="row">
+                            <div class="col-md-12 service d-none d-md-block">
+                              <img class="rounded-circle shadow-1-strong w-75"
+                                  src="{{ asset('/public/assets/img') }}/transprot.png" alt="avatar" />
                             </div>
-                            <div class="col-md-12 text-uppercase fw-semibold">
-                                Hospital
+                            <div class="col-12 service d-block d-md-none">
+                              <img class="rounded-circle shadow-1-strong w-100 d-block d-md-none"
+                                  src="{{ asset('/public/assets/img') }}/transprot.png" alt="avatar" />
+                            </div>
+                            <div class="col-md-12 text-uppercase fw-semibold mb-4">
+                            যানবাহন লাইসেন্স
                             </div>
                         </div>
                     </div>
+                  </a>
                 </div>
                 <div class="col-6 col-md-4 mt-3">
+                  <a href="">
                     <div class="card text-bg-light">
-                        <div class="row p-4">
-                            <div class="col-md-12">
-                                <i class="fa-light fa-car-side fa-5xl bg-info bg-warning text-white p-icon rounded-circle" style="color: #ffffff;"></i>
+                        <div class="row">
+                            <div class="col-md-12 service d-none d-md-block">
+                              <img class="rounded-circle shadow-1-strong w-75"
+                                  src="{{ asset('/public/assets/img') }}/water.png" alt="avatar" />
                             </div>
-                            <div class="col-md-12 text-uppercase fw-semibold">
-                                taxi
+                            <div class="col-12 service d-block d-md-none">
+                              <img class="rounded-circle shadow-1-strong w-100 d-block d-md-none"
+                                  src="{{ asset('/public/assets/img') }}/water.png" alt="avatar" />
+                            </div>
+                            <div class="col-md-12 text-uppercase fw-semibold mb-4">
+                            পানি বিল কালেকশন
                             </div>
                         </div>
                     </div>
+                  </a>
                 </div>
                 <div class="col-6 col-md-4 mt-3">
+                  <a href="">
                     <div class="card text-bg-light">
-                        <div class="row p-4">
-                            <div class="col-md-12">
-                                <i class="fa-sharp fa-solid fa-droplet-degree fa-5xl bg-info bg-primary text-white p-icon rounded-circle" style="color: #ffffff;"></i>
+                        <div class="row ">
+                            <div class="col-md-12 service d-none d-md-block">
+                              <img class="rounded-circle shadow-1-strong w-75"
+                                  src="{{ asset('/public/assets/img') }}/trade_licence.png" alt="avatar" />
                             </div>
-                            <div class="col-md-12 text-uppercase fw-semibold">
-                                water
+                            <div class="col-12 service d-block d-md-none">
+                              <img class="rounded-circle shadow-1-strong w-100 d-block d-md-none"
+                                  src="{{ asset('/public/assets/img') }}/trade_licence.png" alt="avatar" />
+                            </div>
+                            <div class="col-md-12 text-uppercase fw-semibold mb-4">
+                            ট্রেড লাইসেন্স ম্যানেজমেন্ট
                             </div>
                         </div>
                     </div>
+                  </a>
                 </div>
                 <div class="col-6 col-md-4 mt-3">
+                  <a href="">
                     <div class="card text-bg-light">
-                        <div class="row p-4">
-                            <div class="col-md-12">
-                                <i class="fa-brands fa-servicestack fa-5xl bg-info bg-primary text-white p-icon rounded-circle" style="color: #ffffff;"></i>
+                        <div class="row">
+                            <div class="col-md-12 service d-none d-md-block">
+                              <img class="rounded-circle shadow-1-strong w-75"
+                                  src="{{ asset('/public/assets/img') }}/holding_tax.png" alt="avatar" />
                             </div>
-                            <div class="col-md-12 text-uppercase fw-semibold">
-                                Service
+                            <div class="col-12 service d-block d-md-none">
+                              <img class="rounded-circle shadow-1-strong w-100 d-block d-md-none"
+                                  src="{{ asset('/public/assets/img') }}/holding_tax.png" alt="avatar" />
+                            </div>
+                            <div class="col-md-12 text-uppercase fw-semibold mb-4">
+                            হোল্ডিং ট্যাক্স ম্যানেজমেন্ট
                             </div>
                         </div>
                     </div>
+                  </a>
                 </div>
+                
                 <div class="col-6 col-md-4 mt-3">
+                <a href="">
                     <div class="card text-bg-light">
-                        <div class="row p-4">
-                            <div class="col-md-12">
-                                <i class="fa-light fa-hospital fa-5xl bg-success bg-primary text-white p-icon rounded-circle" style="color: #ffffff;"></i>
+                        <div class="row">
+                            <div class="col-md-12 service d-none d-md-block">
+                              <img class="rounded-circle shadow-1-strong w-75"
+                                  src="{{ asset('/public/assets/img') }}/sonod.png" alt="avatar" />
                             </div>
-                            <div class="col-md-12 text-uppercase fw-semibold">
-                                Hospital
+                            <div class="col-12 service d-block d-md-none">
+                              <img class="rounded-circle shadow-1-strong w-100 d-block d-md-none"
+                                  src="{{ asset('/public/assets/img') }}/sonod.png" alt="avatar" />
+                            </div>
+                            <div class="col-md-12 text-uppercase fw-semibold mb-4">
+                            সনদ ব্যবস্থাপনা
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-6 col-md-4 mt-3">
-                    <div class="card text-bg-light">
-                        <div class="row p-4">
-                            <div class="col-md-12">
-                                <i class="fa-light fa-car-side fa-5xl bg-info bg-warning text-white p-icon rounded-circle" style="color: #ffffff;"></i>
-                            </div>
-                            <div class="col-md-12 text-uppercase fw-semibold">
-                                taxi
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 mt-3">
-                    <div class="card text-bg-light">
-                        <div class="row p-4">
-                            <div class="col-md-12">
-                                <i class="fa-sharp fa-solid fa-droplet-degree fa-5xl bg-info bg-primary text-white p-icon rounded-circle" style="color: #ffffff;"></i>
-                            </div>
-                            <div class="col-md-12 text-uppercase fw-semibold">
-                                water
-                            </div>
-                        </div>
-                    </div>
+                </a>
                 </div>
             </div>
             <div class="row mt-4 text-center mx-auto mt-4">
@@ -428,7 +470,7 @@
         <a href="" class="text-white me-4">
           <i class="fab fa-google"></i>
         </a>
-        <a href="" class="text-white me-4">
+        <a href="mailto:ceolabib@gmail.com" class="text-white me-4">
           <i class="fab fa-instagram"></i>
         </a>
         <a href="" class="text-white me-4">
@@ -450,7 +492,7 @@
           <!-- Grid column -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <!-- Content -->
-            <h6 class="text-uppercase fw-bold">Seba Automation(PVT.) Ltd.</h6>
+            <h6 class="text-uppercase fw-bold">Aichgati IT</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #7c4dff; height: 2px"
@@ -464,32 +506,9 @@
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <div class="col-md-5 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Get Started</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
-                />
-            <p>
-              <a href="#!" class="text-white">About Us</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">Our Services</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">Contact Sales Team</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">Live Chat</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <h6 class="text-uppercase fw-bold">payment method</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #7c4dff; height: 2px"
@@ -517,9 +536,9 @@
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
-            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-home mr-3"></i> cumilla, 3500</p>
+            <p><i class="fas fa-envelope mr-3"></i> <a href="mailto: ceolabib@gmail.com.com"> ceolabib@gmail.com</a> </p>
+            <p><i class="fas fa-phone mr-3"></i> +800 17550-48017</p>
             <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
           </div>
           <!-- Grid column -->
@@ -529,17 +548,16 @@
     </section>
     <!-- Section: Links  -->
 
-    <!-- Copyright -->
+    
     <div
          class="text-center p-3"
          style="background-color: rgba(0, 0, 0, 0.2)"
          >
-      © {{ date('Y') }} Copyright
-      <a class="text-white" href="https://mdbootstrap.com/"
-         >Seba Automation(PVT.) Ltd | All rights reserved</a
+      © {{ date('Y') }} 
+      <a class="text-white" href=""
+         >Aichgati IT</a
         >
     </div>
-    <!-- Copyright -->
   </footer>
   <!-- Footer -->
 

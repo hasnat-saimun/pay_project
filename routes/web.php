@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/demo',[
+Route::get('/home',[
     'uses' => 'UserController@viewPage',
     'as'   =>'viewPage'
 ]);
