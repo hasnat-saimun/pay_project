@@ -7,46 +7,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
         <!-- font owsam -->
         <script src="https://kit.fontawesome.com/32dcd4a478.js" crossorigin="anonymous"></script>
-        <style>
-            .p-icon {
-                padding: 3.5rem 2rem !important;
-            }
-            .fa-5xl {
-                font-size: 4em;
-                line-height: 0.03125em;
-                vertical-align: -0.1875em;
-            }
-            .service img {
-                height: 220px;
-                text-align: center;
-                padding: 2rem;
-            }
-            .fixed-margin {
-                margin-top: 7rem;
-            }
-            @media only screen and (max-width: 767px) {
-                .fixed-margin {
-                    margin-top: 9rem !important;
-                }
-
-                .p-icon {
-                    padding: 3rem 2rem !important;
-                }
-
-                .fa-5xl {
-                    font-size: 3em;
-                    line-height: 0.03125em;
-                    vertical-align: -0.1875em;
-                }
-                .service img {
-                    height: 185px !important;
-                    text-align: center;
-                }
-            }
-            a {
-                text-decoration: none;
-            }
-        </style>
+        <link rel="stylesheet" href="{{ asset('/public/assets/css/') }}/style.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow mb-2">

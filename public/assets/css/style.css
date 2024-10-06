@@ -1,0 +1,104 @@
+.p-icon {
+    padding: 3.5rem 2rem !important;
+}
+.fa-5xl {
+    font-size: 4em;
+    line-height: 0.03125em;
+    vertical-align: -0.1875em;
+}
+.service img {
+    height: 220px;
+    text-align: center;
+    padding: 2rem;
+}
+.fixed-margin {
+    margin-top: 7rem;
+}
+@media only screen and (max-width: 767px) {
+    .fixed-margin {
+        margin-top: 9rem !important;
+    }
+
+    .p-icon {
+        padding: 3rem 2rem !important;
+    }
+
+    .fa-5xl {
+        font-size: 3em;
+        line-height: 0.03125em;
+        vertical-align: -0.1875em;
+    }
+    .service img {
+        height: 185px !important;
+        text-align: center;
+    }
+}
+a {
+    text-decoration: none;
+}
+
+/* login css start*/
+
+.form-box{
+    width: 300px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #F0F8FF;
+    padding: 5px;
+}
+/* .button-box{
+    width:100px;
+    margin: 20px auto;
+    position: relative;
+    box-shadow: 0 0 20px 5px #00c8e2;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 2px 30px ;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+} */
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #c0afaf;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    
+    width: 100%;
+    padding:8px 25px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff015f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.chech-box{
+    margin: 8px 10px 25px 0;
+}
+span{
+    margin: 8px 10px 25px 0;
+    color: #777;
+    font-size: 15px;
+    bottom: 68px;
+    
+}
+
+/* login css Ended*/
