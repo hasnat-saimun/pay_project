@@ -351,7 +351,7 @@
                                   </div>
                                   <div class="col-4 mt-3">
                                     <a href="">
-                                      <img class="rounded-circle shadow-1-strong w-100 " src="{{ asset('/public/assets/payment') }}/upya.png" alt="avatar" />
+                                      <img class="rounded-circle shadow-1-strong w-100 " src="{{ asset('/public/assets/payment') }}/upya.png" alt="abaer" />
                                     </a>
                                   </div>
                                 </div>
