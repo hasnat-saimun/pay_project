@@ -21,6 +21,7 @@
                         <input type="text" class="input-field" placeholder="Enter the password" required>
                         <input type="checkbox" class="chech-box"><span>Remember Passowrd</span>
                         <button type="submit" class="submit-btn">Log in</button>
+                        <button type="submit" class="submit-btn">Log in</button>
                         </form>
                     </div>
                 </div>
