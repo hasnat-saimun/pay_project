@@ -55,7 +55,7 @@
                     <h3 class="fw-bold  ">আমা‌দের সেবা সমূহ</h3>
                 </div>
                 <div class="col-6 col-md-4 mt-3">
-                    <a href="">
+                    <a href="{{route('viewLogin')}}">
                         <div class="card text-bg-light">
                             <div class="row">
                                 <div class="col-md-12 service d-none d-md-block">
