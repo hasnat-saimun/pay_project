@@ -65,7 +65,7 @@
                                     <img class="rounded-circle shadow-1-strong w-100 d-block d-md-none" src="{{ asset('/public/assets/img') }}/school.png" alt="avatar" />
                                 </div>
                                 <div class="col-md-12 text-uppercase fw-semibold mb-4">
-                                    স্কুল ম্যানেজমেন্ট
+                                    স্কুল ম্যানেজমেন্ট 
                                 </div>
                             </div>
                         </div>
