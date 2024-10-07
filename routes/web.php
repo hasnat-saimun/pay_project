@@ -12,7 +12,7 @@ Route::get('/home',[
 ]);
 
 // login strat
-Route::get('/login',[
+Route::get('/login/page',[
     'uses' => 'loginControl@viewLogin',
     'as'   =>'viewLogin'
 ]);
