@@ -11,10 +11,19 @@ Route::get('/home',[
     'as'   =>'viewPage'
 ]);
 
-// login strat
+// marchent login strat
 Route::get('/login/page',[
     'uses' => 'loginControl@viewLogin',
     'as'   =>'viewLogin'
 ]);
 
-//login Ended
+// marchent login Ended
+
+// marchent home page strat
+Route::get('/marchent/view/page',[
+    'uses' => 'marchentControl@viewHome',
+    'as'   =>'viewHome'
+]);
+// marchent homepage Ended
+
+

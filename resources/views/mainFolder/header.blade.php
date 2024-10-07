@@ -20,7 +20,8 @@
                     </div>
                     <div class="col-12 col-md-10 mx-auto">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                            <span class="navbar-toggler-icon">
+                            </span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav m-auto text-uppercase fw-bold">
@@ -34,7 +35,7 @@
                                     <a class="nav-link" href="#">Our Services</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Marchent Login</a>
+                                    <a class="nav-link" href="{{route('viewLogin')}}">Marchent Login</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Contract Sales</a>
@@ -55,7 +56,7 @@
                     <h3 class="fw-bold ">আমাদের সেবা সমূহ</h3>
                 </div>
                 <div class="col-6 col-md-4 mt-3">
-                    <a href="{{route('viewLogin')}}">
+                    <a href="">
                         <div class="card text-bg-light">
                             <div class="row">
                                 <div class="col-md-12 service d-none d-md-block">

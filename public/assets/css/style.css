@@ -83,3 +83,16 @@ a {
 }
 
 /* login css Ended*/
+
+/* marchent home page css start*/
+.back-color{
+    background: linear-gradient( #b9006c,#b9006c);
+    
+}
+.fixed-margin1 {
+    margin-top: 6rem;
+}
+.btn-color{
+    background: linear-gradient( #b9006c,#b9006c);
+}
+/* marchent home page css ended*/
