@@ -29,18 +29,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-4 mt-2 ">
-                    <i class="fa-sharp fa-thin fa-bell fa-lg" style="color: #ffffff;"></i>
-                    </div>
-                    <div class="col-8">
+                    <i class="fa-sharp fa-thin fa-bell fa-lg text-end" style="color: #ffffff;"></i>
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         
-                    </button>
-                    </div>
-                    
-                </div>
+                        </button>
                 
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
