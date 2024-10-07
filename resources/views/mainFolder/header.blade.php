@@ -52,7 +52,7 @@
           
             <div class="row">
                   <div class="col-12  my-2">
-                    <h3 class="fw-bold  ">আমা‌দের সেবা সমূহ</h3>
+                    <h3 class="fw-bold ">আমাদের সেবা সমূহ</h3>
                 </div>
                 <div class="col-6 col-md-4 mt-3">
                     <a href="{{route('viewLogin')}}">
@@ -159,6 +159,9 @@
                 </div>
             </div>
             <div class="row mt-4 text-center mx-auto mt-4">
+                    <div class="col-12  my-2">
+                    <h3 class="fw-bold">আমাদের গ্রাহক</h3>
+                </div>
                 <!-- Carousel wrapper -->
                 <div id="carouselMultiItemExample" data-bs-carousel-init class="carousel slide carousel-dark" data-bs-ride="carousel">
                     <div class="carousel-inner py-4">
