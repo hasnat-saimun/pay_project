@@ -15,6 +15,15 @@
     margin-top: 7rem;
 }
 @media only screen and (max-width: 767px) {
+    body{
+        font-size: 11px;
+    }
+    .offcanvas{
+        width: 65% !important;
+    }
+    h5{
+        font-size: 12px;
+    }
     .fixed-margin {
         margin-top: 9rem !important;
     }
@@ -32,9 +41,37 @@
         height: 185px !important;
         text-align: center;
     }
+    .fixed-margin1 {
+        margin-top: 3.5rem;
+    }
+    .shadow{
+        box-shadow: 0 .1rem .2rem rgb(25 3 53) !important;
+    }
+    .carousel-indicators {
+        top: 75%;
+    }
 }
 a {
     text-decoration: none;
+}
+
+.circle-body{
+    border:2px #190335;
+    padding: .5rem 1rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.balance-body{
+    border:2px;
+    padding: 3.5rem;
+    color: #fff;
+    background: #190335;
+    border-radius: 50%;
+}
+.balance-color{
+    color:#190335; 
+    font-weight: bold;
 }
 
 /* login css start*/
@@ -88,9 +125,6 @@ a {
 .back-color{
     background: linear-gradient( #b9006c,#b9006c);
     
-}
-.fixed-margin1 {
-    margin-top: 6rem;
 }
 .btn-color{
     background: linear-gradient( #b9006c,#b9006c);
