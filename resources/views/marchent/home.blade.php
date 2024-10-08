@@ -37,7 +37,7 @@
                 
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <div class="col-12 text-center  border-bottom ">
+                        <div class="col-12 text-center p-5 border-bottom ">
                             <img src="{{ asset('/public/assets/img') }}/logo.png" alt="logo" style="width: 6rem;" />
                         </div>
                     </div>
@@ -48,7 +48,6 @@
                                     <div class="row ">
                                         <div class="col-1 ">
                                             <i class="fa-light fa-building-columns fa-lg border-end"></i>
-                                            
                                         </div>
                                         <div class="col-10 ">
                                             <span class=" border-start px-2 ">ব্যাংক তথ্য দিন</span>
@@ -84,7 +83,7 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown  
+                                    dorp
                                 </a>
                                 <ul class="dropdown-menu border-0">
                                     <li><a class="dropdown-item" href="#">Action</a></li>
