@@ -42,16 +42,49 @@
                         </div>
                     </div>
                     <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">    
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="#">
+                                    <div class="row ">
+                                        <div class="col-1 ">
+                                            <i class="fa-light fa-building-columns fa-lg border-end"></i>
+                                            
+                                        </div>
+                                        <div class="col-10 ">
+                                            <span class=" border-start px-2 ">ব্যাংক তথ্য দিন</span>
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="#">
+                                    <div class="row ">
+                                        <div class="col-1 ">
+                                            <i class="fa-light fa-money-from-bracket fa-lg border-end"></i>
+                                            
+                                        </div>
+                                        <div class="col-10 ">
+                                            <span class=" border-start px-2 ">টাকা উত্তোলন করুন</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <div class="row ">
+                                        <div class="col-1 ">
+                                        <i class="fa-light fa-boxes-stacked fa-lg border-end"></i>
+                                        
+                                        </div>
+                                        <div class="col-10 ">
+                                            <span class=" border-start px-2 ">বর্তমান প্যাকেজ</span>
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
+                                    Dropdown  
                                 </a>
                                 <ul class="dropdown-menu border-0">
                                     <li><a class="dropdown-item" href="#">Action</a></li>
