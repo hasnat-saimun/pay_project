@@ -45,7 +45,7 @@
         margin-top: 3.5rem;
     }
     .shadow{
-        box-shadow: 0 .1rem .2rem rgb(25 3 53) !important;
+        box-shadow: 0 .2rem .5rem #190335 !important;
     }
     .carousel-indicators {
         top: 75%;
@@ -66,7 +66,7 @@ a {
     border:2px;
     padding: 3.5rem;
     color: #fff;
-    background: #190335;
+    background: #1e65ae;
     border-radius: 50%;
 }
 .balance-color{
@@ -123,10 +123,13 @@ a {
 
 /* marchent home page css start*/
 .back-color{
-    background: linear-gradient( #b9006c,#b9006c);
+    background: #1e65ae;
     
 }
 .btn-color{
-    background: linear-gradient( #b9006c,#b9006c);
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+.icon-color{
+    color: #1e65ae;
 }
 /* marchent home page css ended*/

@@ -40,32 +40,55 @@
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">    
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <i class="fa-light fa-building-columns fa-lg mx-1"></i>
+                            <i class="fa-light fa-building-columns fa-lg mx-1 icon-color"></i>
                             <span> ব্যাংক তথ্য দিন</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <i class="fa-light fa-money-from-bracket fa-lg mx-1"></i>
+                            <i class="fa-light fa-money-from-bracket fa-lg mx-1 icon-color"></i>
                             <span> টাকা উত্তোলন করুন</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <i class="fa-light fa-boxes-stacked fa-lg mx-1"></i>
+                            <i class="fa-light fa-boxes-stacked fa-lg mx-1 icon-color"></i>
                             <span> বর্তমান প্যাকেজ</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                        <i class="fa-light fa-clipboard-list fa-lg mx-1 icon-color"></i>
+                            <span>  রিপোর্ট</span>
                         </a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa-light fa-building-columns fa-lg mx-1"></i>
-                            dorp
+                        <i class="fa-light fa-user-unlock fa-lg mx-1 icon-color "></i>
+                         প্রাইভেসি পলিসি
                         </a>
                         <ul class="dropdown-menu border-0">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fa-light fa-phone-volume icon-color"></i>
+                                    হটলাইন
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">
+                            <i class="fa-light fa-memo icon-color"></i> নিয়ম ও শর্তাবলী</a></li>
                             
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-light fa-memo-pad icon-color"></i> প্রাইভেসি পলিসি</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-light fa-gear icon-color fa-lg mx-1"></i>
+                        সেটিং
+                        </a>
+                        <ul class="dropdown-menu border-0">
+                        <li><a class="dropdown-item" href="#"><i class="fa-light fa-arrows-repeat icon-color"></i> ভাষা পরিবর্তন </a></li>
+                        <li><a class="dropdown-item" href="#"> <i class="fa-light fa-lock-keyhole icon-color"></i> পিন পরিবর্তন </a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fa-light fa-user-slash icon-color"></i> অ্যাকাউন্ট স্থগিত করুন</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -94,15 +117,34 @@
                             <p class="mb-0">ব্যালেন্স</p>
                         </div>
                     </div>
-                    <p class="balance-color">ব্যালেন্স সংযুক্ত <i class="fa-solid fa-chevron-right"></i></p>
+                    <p class="balance-color ">ব্যালেন্স সংযুক্ত <i class="fa-solid fa-chevron-right "></i></p>
                 </div>
                 <div class="col-6">
                     <div class="row my-3">
                         <div class="col-4">
-                            <i class="fa-light fa-mobile fa-xl"></i>
+                            <i class="fa-light fa-mobile fa-xl icon-color"></i>
                             Recharge
                         </div>
-                        <div class="col-8">
+                        <div class="col-8 icon-color">
+                            <div class="border-bottom mt-2 icon-color">
+                                <div class="row">
+                                    <div class="col-9">
+                                        <span>0</span>
+                                    </div>
+                                    <div class="col-3">
+                                        <span class="text-end"> <i class="fa-regular fa-chevron-right icon-color"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end icons -->
+                    <div class="row my-3">
+                        <div class="col-4">
+                            <i class="fa-light fa-mobile fa-xl icon-color "></i>
+                            Recharge
+                        </div>
+                        <div class="col-8 icon-color">
                             <div class="border-bottom mt-2">
                                 <div class="row">
                                     <div class="col-9">
@@ -118,29 +160,10 @@
                     <!-- end icons -->
                     <div class="row my-3">
                         <div class="col-4">
-                            <i class="fa-light fa-mobile fa-xl"></i>
+                            <i class="fa-light fa-mobile fa-xl icon-color"></i>
                             Recharge
                         </div>
-                        <div class="col-8">
-                            <div class="border-bottom mt-2">
-                                <div class="row">
-                                    <div class="col-9">
-                                        <span>0</span>
-                                    </div>
-                                    <div class="col-3">
-                                        <span class="text-end"> <i class="fa-regular fa-chevron-right"></i></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end icons -->
-                    <div class="row my-3">
-                        <div class="col-4">
-                            <i class="fa-light fa-mobile fa-xl"></i>
-                            Recharge
-                        </div>
-                        <div class="col-8">
+                        <div class="col-8 icon-color">
                             <div class="border-bottom mt-2">
                                 <div class="row">
                                     <div class="col-9">
@@ -182,7 +205,7 @@
                 <div class="col-4 mt-3">
                     <a href="">
                         <div class="card text-bg-light py-4 border-0 shadow">
-                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2"></i>
+                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2 icon-color"></i>
                             <p class="mb-0 mt-4"> মোবাইল রিচার্জ</p> 
                         </div>
                     </a>
@@ -190,7 +213,7 @@
                 <div class="col-4 mt-3">
                     <a href="">
                         <div class="card text-bg-light py-4 border-0 shadow">
-                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2"></i>
+                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2 icon-color"></i>
                             <p class="mb-0 mt-4"> মোবাইল রিচার্জ</p> 
                         </div>
                     </a>
@@ -198,7 +221,7 @@
                 <div class="col-4 mt-3">
                     <a href="">
                         <div class="card text-bg-light py-4 border-0 shadow">
-                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2"></i>
+                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2 icon-color"></i>
                             <p class="mb-0 mt-4"> মোবাইল রিচার্জ</p> 
                         </div>
                     </a>
@@ -209,7 +232,7 @@
                 <div class="col-4 mt-3">
                     <a href="">
                         <div class="card text-bg-light py-4 border-0 shadow">
-                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2"></i>
+                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2 icon-color"></i>
                             <p class="mb-0 mt-4"> মোবাইল রিচার্জ</p> 
                         </div>
                     </a>
@@ -217,7 +240,7 @@
                 <div class="col-4 mt-3">
                     <a href="">
                         <div class="card text-bg-light py-4 border-0 shadow">
-                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2"></i>
+                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2 icon-color"></i>
                             <p class="mb-0 mt-4"> মোবাইল রিচার্জ</p> 
                         </div>
                     </a>
@@ -225,7 +248,7 @@
                 <div class="col-4 mt-3">
                     <a href="">
                         <div class="card text-bg-light py-4 border-0 shadow">
-                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2"></i>
+                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2 icon-color"></i>
                             <p class="mb-0 mt-4"> মোবাইল রিচার্জ</p> 
                         </div>
                     </a>
@@ -236,13 +259,17 @@
          <div class="card border-0 fixed-bottom">
             <div class="card-footer ">
                 <div class="row">
-                    <div class="col-6 text-center">
-                    <i class="fa-duotone fa-solid fa-house-user fa-xl" style="--fa-primary-color: #b9006c; --fa-secondary-color: #f09999;"></i>
-                    <p class="card-text mt-1" style="color: #b9006c">হোম</p>
+                    <div class="col-4 text-center icon-color">
+                    <i class="fa-solid fa-user-gear " ></i>
+                    <p class="card-text mt-1" >প্রোফাইল </p>
                     </div>
-                    <div class="col-6 text-center">
-                    <i class="fa-solid fa-user-gear" style="color: #b9006c"></i>
-                    <p class="card-text mt-1" style="color: #b9006c">প্রোফাইল </p>
+                    <div class="col-4 text-center">
+                    <i class="fa-duotone fa-solid fa-house-user fa-xl" style="--fa-primary-color: #131fbb; --fa-secondary-color: #f09999;"></i>
+                    <p class="card-text mt-1 icon-color" >হোম</p>
+                    </div>
+                    <div class="col-4 text-center icon-color">
+                    <i class="fa-solid fa-arrow-right-from-bracket fa-flip-horizontal"></i>
+                    <p class="card-text mt-1" >লগ আউট</p>
                     </div>
                 </div>
             </div>
