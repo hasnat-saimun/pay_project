@@ -59,7 +59,7 @@
                     <p class="card-text mt-1" >প্রোফাইল </p>
                     </div>
                     <div class="col-4 text-center">
-                    <i class="fa-duotone fa-solid fa-house-user fa-xl" style="--fa-primary-color: #131fbb; --fa-secondary-color: #f09999;"></i>
+                    <i class="fa-duotone fa-solid fa-house-user " style="--fa-primary-color: #131fbb; --fa-secondary-color: #f09999;"></i>
                     <p class="card-text mt-1 icon-color" >হোম</p>
                     </div>
                     <div class="col-4 text-center icon-color">
