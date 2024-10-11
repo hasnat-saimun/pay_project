@@ -14,9 +14,175 @@
 .fixed-margin {
     margin-top: 7rem;
 }
+
+/* marchent home icon css start*/
+.icon-color{
+    color: #1e65ae;
+}
+.nav-icon{
+    color: #ffffff; /* for nav&hover */
+    
+}
+/* marchent home icon css ended*/
+
+@media only screen and (max-width: 1440px) {
+    body{
+        font-size: 15px;
+    }
+    .balance-body {
+        border: 1px;
+        padding:15rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+    .offcanvas{
+        width: 65% !important;
+    }
+    h5{
+        font-size: 15px;
+    }
+/* marchent home page css start*/
+.back-color{
+    background: #1e65ae;
+    
+}
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+.fixed-margin1 {
+    margin-top: 5.5rem;
+}
+/* marchent home page css ended*/
+
+} 
+
+@media only screen and (max-width: 1024px) {
+    body{
+        font-size: 11px;
+    }
+    .balance-body {
+        border: 1px;
+        padding:11rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+    .offcanvas{
+        width: 65% !important;
+    }
+    h5{
+        font-size: 12px;
+    }
+/* marchent home page css start*/
+.back-color{
+    background: #1e65ae;
+    
+}
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+
+.fixed-margin1 {
+    margin-top: 3.5rem;
+}
+/* marchent home page css ended*/
+
+} 
+@media only screen and (max-width: 991px) {
+    body{
+        font-size: 11px;
+    }
+    .balance-body {
+        border: 2px;
+        padding: 8rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+    .offcanvas{
+        width: 65% !important;
+    }
+    h5{
+        font-size: 12px;
+    }
+/* marchent home page css start*/
+.back-color{
+    background: #1e65ae;
+    
+}
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+.fixed-margin1 {
+    margin-top: 3.5rem;
+}
+/* marchent home page css ended*/
+
+}
+
+@media only screen and (max-width: 819px) {
+    body{
+        font-size: 11px;
+    }
+    .balance-body {
+        border: 2px;
+        padding: 8rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+    .offcanvas{
+        width: 65% !important;
+    }
+    h5{
+        font-size: 12px;
+    }
+/* marchent home page css start*/
+.back-color{
+    background: #1e65ae;
+    
+}
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+
+.fixed-margin1 {
+    margin-top: 3.5rem;
+}
+/* marchent home page css ended*/
+
+}
+
+
+
+
 @media only screen and (max-width: 767px) {
     body{
         font-size: 11px;
+    }
+    .balance-body {
+        border: 2px;
+        padding: 5.5rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
     }
     .offcanvas{
         width: 65% !important;
@@ -50,7 +216,91 @@
     .carousel-indicators {
         top: 75%;
     }
+    /* marchent home page css start*/
+.back-color{
+    background: #1e65ae;
+    
 }
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+/* marchent home page css ended*/
+}
+
+@media only screen and (max-width: 575px) {
+    .btn{
+        font-size: 11px;
+    }
+    .balance-body {
+        border: 2px;
+        padding: 6rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .btn{
+        font-size: 11px;
+    }
+    .balance-body {
+        border: 2px;
+        padding: 3rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .btn{
+        font-size: 11px;
+    }
+    .balance-body {
+        border: 2px;
+        padding: 3.5rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    body{
+        font-size: 8px;
+    }
+    .btn{
+        font-size: 10px;
+    }
+    .balance-body {
+        border: 2px;
+        padding: 3rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .btn{
+        font-size: 8px;
+    }
+    .balance-body {
+        border: 2px;
+        padding: 2.5rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+}
+
+
+
+
+
 a {
     text-decoration: none;
 }
@@ -62,13 +312,7 @@ a {
     border-radius: 50%;
 }
 
-.balance-body{
-    border:2px;
-    padding: 3.5rem;
-    color: #fff;
-    background: #1e65ae;
-    border-radius: 50%;
-}
+
 .balance-color{
     color:#190335; 
     font-weight: bold;
@@ -121,15 +365,3 @@ a {
 
 /* login css Ended*/
 
-/* marchent home page css start*/
-.back-color{
-    background: #1e65ae;
-    
-}
-.btn-color{
-    background: linear-gradient( #1e65ae,#1e65ae);
-}
-.icon-color{
-    color: #1e65ae;
-}
-/* marchent home page css ended*/

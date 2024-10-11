@@ -18,11 +18,19 @@ Route::get('/login/page',[
 ]);
 
 // marchent login Ended
-
+Route::get('/marchent/nav',[
+    'uses' => 'marchentControl@nav',
+    'as'   =>'nav'
+]);
 // marchent home page strat
 Route::get('/marchent/view/page',[
     'uses' => 'marchentControl@viewHome',
     'as'   =>'viewHome'
+]);
+
+Route::get('/marchent/bil/page',[
+    'uses' => 'marchentControl@bilCom',
+    'as'   =>'bilCom'
 ]);
 // marchent homepage Ended
 
