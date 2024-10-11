@@ -1,5 +1,5 @@
 @extends('marchent.nav&hover') @section('navText')
-<h5 class="text-uppercase mb-0 text-end">বিল পেমেন্ট</h5>
+<h6 class="text-uppercase mb-0 text-end">বিল পেমেন্ট</h6>
 @endsection @section('fotterText')
 <span>বিলের ইতিহাস</span>
 @endsection
