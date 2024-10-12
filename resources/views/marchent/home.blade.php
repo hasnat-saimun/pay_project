@@ -201,11 +201,11 @@
                 </div>
             </div>
             <!-- card-part -->
-             <div class="row text-center mt-3">
+            <div class="row text-center mt-3">
                 <div class="col-4 mt-3">
                     <a href="">
                         <div class="card text-bg-light py-4 border-0 shadow">
-                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2 icon-color"></i>
+                            <i class="fa-solid fa-mobile-screen fa-2xl mt-2 icon-color"></i>
                             <p class="mb-0 mt-4"> মোবাইল রিচার্জ</p> 
                         </div>
                     </a>
@@ -213,16 +213,17 @@
                 <div class="col-4 mt-3">
                     <a href="">
                         <div class="card text-bg-light py-4 border-0 shadow">
-                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2 icon-color"></i>
-                            <p class="mb-0 mt-4"> মোবাইল রিচার্জ</p> 
+                            <i class="fa-regular fa-building-columns fa-2xl mt-2 icon-color"></i>
+                            <p class="mb-0 mt-4">মোবাইল ব্যাংকিং</p> 
                         </div>
                     </a>
                 </div>
                 <div class="col-4 mt-3">
-                    <a href="">
+                    <a href="{{route('bilCom')}}">
                         <div class="card text-bg-light py-4 border-0 shadow">
-                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2 icon-color"></i>
-                            <p class="mb-0 mt-4"> মোবাইল রিচার্জ</p> 
+                            <i class="fa-light fa-money-bill-wheat fa-2xl mt-2 icon-color"></i>
+                            <p class="mb-0 mt-4"> 
+                            বিল পরিশোধ</p> 
                         </div>
                     </a>
                 </div>
@@ -230,26 +231,26 @@
             <!-- card-part -->
              <div class="row text-center mt-3">
                 <div class="col-4 mt-3">
-                    <a href="">
+                    <a href="{{route('tikForm')}}">
                         <div class="card text-bg-light py-4 border-0 shadow">
-                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2 icon-color"></i>
-                            <p class="mb-0 mt-4"> মোবাইল রিচার্জ</p> 
+                            <i class="fa-regular fa-tickets fa-2xl mt-2 icon-color"></i>
+                            <p class="mb-0 mt-4"> ই টিকেটিং</p> 
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4 mt-3">
+                    <a href="{{route('shopingPage')}}">
+                        <div class="card text-bg-light py-4 border-0 shadow">
+                            <i class="fa-regular fa-cart-shopping-fast fa-2xl mt-2 icon-color"></i>
+                            <p class="mb-0 mt-4"> বেচা বিক্রি</p> 
                         </div>
                     </a>
                 </div>
                 <div class="col-4 mt-3">
                     <a href="">
                         <div class="card text-bg-light py-4 border-0 shadow">
-                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2 icon-color"></i>
-                            <p class="mb-0 mt-4"> মোবাইল রিচার্জ</p> 
-                        </div>
-                    </a>
-                </div>
-                <div class="col-4 mt-3">
-                    <a href="">
-                        <div class="card text-bg-light py-4 border-0 shadow">
-                            <i class="fa-solid fa-mobile-screen-button fa-2xl mt-2 icon-color"></i>
-                            <p class="mb-0 mt-4"> মোবাইল রিচার্জ</p> 
+                            <i class="fa-sharp fa-regular fa-store fa-2xl mt-2 icon-color"></i>
+                            <p class="mb-0 mt-4"> আমার দোকান</p> 
                         </div>
                     </a>
                 </div>

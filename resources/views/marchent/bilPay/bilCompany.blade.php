@@ -1,4 +1,10 @@
-@extends('marchent.nav&hover') @section('navText')
+@extends('marchent.nav&hover') 
+@section('chevron')
+    <a href="{{route('viewHome')}}">
+    <i class="fa-solid fa-chevron-left fa-lg nav-icon"></i>
+    </a>
+@endsection 
+@section('navText')
 <h6 class="text-uppercase mb-0 text-end">বিল পেমেন্ট</h6>
 @endsection @section('fotterText')
 <span>বিলের ইতিহাস</span>

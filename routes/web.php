@@ -28,9 +28,19 @@ Route::get('/marchent/view/page',[
     'as'   =>'viewHome'
 ]);
 
-Route::get('/marchent/bil/page',[
-    'uses' => 'marchentControl@bilCom',
+Route::get('/marchent/bil/page',[       
+    'uses' => 'marchentControl@bilCom', // bilPay page 
     'as'   =>'bilCom'
+]);
+
+Route::get('/marchent/ticket/',[       
+    'uses' => 'marchentControl@tikForm', // bilPay page 
+    'as'   =>'tikForm'
+]);
+
+Route::get('/marchent/shoping/page',[       
+    'uses' => 'marchentControl@shopingPage', ///shoping page
+    'as'   =>'shopingPage'
 ]);
 // marchent homepage Ended
 

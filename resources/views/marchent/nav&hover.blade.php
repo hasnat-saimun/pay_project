@@ -16,9 +16,7 @@
         <nav class="fixed-top back-color p-2 px-4">
             <div class="row align-items-center text-white">
                 <div class="col-1 text-end">
-                    <a href="">
-                        <i class="fa-solid fa-chevron-left fa-lg nav-icon"></i>
-                    </a>
+                    @yield('chevron')
                 
                 </div>
                 <div class="col-7">
@@ -54,17 +52,24 @@
     <div class="card border-0 fixed-bottom">
             <div class="card-footer ">
                 <div class="row">
-                    <div class="col-4 text-center icon-color">
-                    <i class="fa-solid fa-user-gear " ></i>
-                    <p class="card-text mt-1" >প্রোফাইল </p>
+                    
+                    <div class="col-4 text-center ">
+                    <a class="icon-color"href="{{route('viewHome')}}">
+                        <i class="fa-solid fa-user-gear  " ></i>
+                        <p class="card-text mt-1 " >প্রোফাইল </p>
+                    </a>
                     </div>
                     <div class="col-4 text-center">
-                    <i class="fa-duotone fa-solid fa-house-user " style="--fa-primary-color: #131fbb; --fa-secondary-color: #f09999;"></i>
-                    <p class="card-text mt-1 icon-color" >হোম</p>
+                    <a class="icon-color"href="{{route('viewHome')}}">
+                        <i class="fa-duotone fa-solid fa-house-user " style="--fa-primary-color: #131fbb; --fa-secondary-color: #f09999;"></i>
+                        <p class="card-text mt-1 icon-color" >হোম</p>
+                    </a>
                     </div>
                     <div class="col-4 text-center icon-color">
-                    <i class="fa-solid fa-arrow-right-from-bracket fa-flip-horizontal"></i>
-                    <p class="card-text mt-1" >লগ আউট</p>
+                    <a class="icon-color"href="{{route('viewHome')}}">
+                        <i class="fa-solid fa-arrow-right-from-bracket fa-flip-horizontal"></i>
+                        <p class="card-text mt-1" >লগ আউট</p>
+                    </a>
                     </div>
                 </div>
             </div>
