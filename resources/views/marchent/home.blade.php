@@ -120,10 +120,10 @@
                     <p class="balance-color ">ব্যালেন্স সংযুক্ত <i class="fa-solid fa-chevron-right "></i></p>
                 </div>
                 <div class="col-6">
-                    <div class="row my-3">
+                    <div class="row my-1">
                         <div class="col-4">
                             <i class="fa-light fa-mobile fa-xl icon-color"></i>
-                            রিচার্জ
+                            <p>রিচার্জ</p>
                         </div>
                         <div class="col-8 icon-color">
                             <div class="border-bottom mt-2 icon-color">
@@ -139,10 +139,10 @@
                         </div>
                     </div>
                     <!-- end icons -->
-                    <div class="row my-3">
+                    <div class="row my-1">
                         <div class="col-4">
                             <i class="fa-light fa-building-columns fa-xl icon-color "></i>
-                            এম-ব্যাংকিং
+                            <p>এম-ব্যাংকিং</p>
                         </div>
                         <div class="col-8 icon-color">
                             <div class="border-bottom mt-2">
@@ -158,10 +158,11 @@
                         </div>
                     </div>
                     <!-- end icons -->
-                    <div class="row my-3">
+                    <div class="row my-1">
                         <div class="col-4">
                             <i class="fa-light fa-money-bill-wheat fa-xl icon-color"></i>
-                            বিল েপে
+                            <p> বিল পে</p>
+                           
                         </div>
                         <div class="col-8 icon-color">
                             <div class="border-bottom mt-2">
