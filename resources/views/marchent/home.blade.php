@@ -220,11 +220,11 @@
                     </a>
                 </div>
                 <div class="col-4 mt-3">
-                    <a href="{{route('bilCom')}}">
+                    <a href="{{route('cardActive')}}">
                         <div class="card text-bg-light py-4 border-0 shadow">
                             <i class="fa-light fa-money-bill-wheat fa-2xl mt-2 icon-color"></i>
                             <p class="mb-0 mt-4"> 
-                            বিল পরিশোধ</p> 
+                            কার্ড একটিভ</p> 
                         </div>
                     </a>
                 </div>

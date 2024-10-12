@@ -17,6 +17,9 @@ class marchentControl extends Controller
     public function bilCom(){
         return view('marchent.bilPay.bilCompany');
     }
+    public function cardActive(){
+        return view('marchent.bilPay.cardActive'); //card active from
+    }
     //pay bil end
 
     //ticket str

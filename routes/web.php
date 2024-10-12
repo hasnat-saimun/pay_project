@@ -33,8 +33,13 @@ Route::get('/marchent/bil/page',[
     'as'   =>'bilCom'
 ]);
 
+Route::get('/marchent/card/active',[       
+    'uses' => 'marchentControl@cardActive', // card active page 
+    'as'   =>'cardActive'
+]);
+
 Route::get('/marchent/ticket/',[       
-    'uses' => 'marchentControl@tikForm', // bilPay page 
+    'uses' => 'marchentControl@tikForm', // ticket page 
     'as'   =>'tikForm'
 ]);
 
