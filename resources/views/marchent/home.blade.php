@@ -212,7 +212,7 @@
                     </a>
                 </div>
                 <div class="col-4 mt-3">
-                    <a href="">
+                    <a href="{{route('bankForm')}}">
                         <div class="card text-bg-light py-4 border-0 shadow">
                             <i class="fa-regular fa-building-columns fa-2xl mt-2 icon-color"></i>
                             <p class="mb-0 mt-4">মোবাইল ব্যাংকিং</p> 

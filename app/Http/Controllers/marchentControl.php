@@ -13,6 +13,11 @@ class marchentControl extends Controller
     public function viewHome(){
         return view('marchent.home');
     }
+    // bank form str
+    public function bankForm(){
+        return view('marchent.mobileBank.bankForm');
+    }
+    // bank form end
     //pay bil str
     public function bilCom(){
         return view('marchent.bilPay.bilCompany');

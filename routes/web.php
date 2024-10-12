@@ -47,6 +47,11 @@ Route::get('/marchent/shoping/page',[
     'uses' => 'marchentControl@shopingPage', ///shoping page
     'as'   =>'shopingPage'
 ]);
+
+Route::get('/marchent/bank/form',[       
+    'uses' => 'marchentControl@bankForm', ///bank logo form page
+    'as'   =>'bankForm'
+]);
 // marchent homepage Ended
 
 
