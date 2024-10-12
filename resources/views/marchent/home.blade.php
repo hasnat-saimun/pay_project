@@ -123,7 +123,7 @@
                     <div class="row my-3">
                         <div class="col-4">
                             <i class="fa-light fa-mobile fa-xl icon-color"></i>
-                            Recharge
+                            রিচার্জ
                         </div>
                         <div class="col-8 icon-color">
                             <div class="border-bottom mt-2 icon-color">
@@ -141,8 +141,8 @@
                     <!-- end icons -->
                     <div class="row my-3">
                         <div class="col-4">
-                            <i class="fa-light fa-mobile fa-xl icon-color "></i>
-                            Recharge
+                            <i class="fa-light fa-building-columns fa-xl icon-color "></i>
+                            এম-ব্যাংকিং
                         </div>
                         <div class="col-8 icon-color">
                             <div class="border-bottom mt-2">
@@ -160,8 +160,8 @@
                     <!-- end icons -->
                     <div class="row my-3">
                         <div class="col-4">
-                            <i class="fa-light fa-mobile fa-xl icon-color"></i>
-                            Recharge
+                            <i class="fa-light fa-money-bill-wheat fa-xl icon-color"></i>
+                            বিল েপে
                         </div>
                         <div class="col-8 icon-color">
                             <div class="border-bottom mt-2">
