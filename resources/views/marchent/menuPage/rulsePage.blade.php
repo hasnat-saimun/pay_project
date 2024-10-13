@@ -5,8 +5,9 @@
     </a>
 @endsection 
  @section('navText')
-<h6 class="text-uppercase mb-0 text-end">বেচা বিক্রি</h6>
+<h6 class="text-uppercase mb-0 text-end">নিয়ম ও শর্তাবলী</h6>
 @endsection 
-@section('fotterText')
-<span>বেচা বিক্রি ইতিহাস</span>
-@endsection
+<div class="container fixed-margin1">
+
+
+</div>

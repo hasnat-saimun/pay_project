@@ -364,6 +364,9 @@ a {
     bottom: 68px;
     
 }
+.progress {
+    --bs-progress-height: 0.3rem !important;
+}
 
 /* login css Ended*/
 

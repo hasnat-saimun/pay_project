@@ -39,7 +39,7 @@
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">    
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="{{route('bankInfo')}}">
                             <i class="fa-light fa-building-columns fa-lg mx-1 icon-color"></i>
                             <span> ব্যাংক তথ্য দিন</span>
                         </a>
@@ -51,13 +51,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="fa-light fa-boxes-stacked fa-lg mx-1 icon-color"></i>
-                            <span> বর্তমান প্যাকেজ</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="{{route('dailyReport')}}">
                         <i class="fa-light fa-clipboard-list fa-lg mx-1 icon-color"></i>
                             <span>  রিপোর্ট</span>
                         </a>
@@ -69,15 +63,13 @@
                         </a>
                         <ul class="dropdown-menu border-0">
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{route('hotlinePage')}}">
                                     <i class="fa-light fa-phone-volume icon-color"></i>
                                     হটলাইন
                                 </a>
                             </li>
-                            <li><a class="dropdown-item" href="#">
+                            <li><a class="dropdown-item" href="{{route('rulsePage')}}">
                             <i class="fa-light fa-memo icon-color"></i> নিয়ম ও শর্তাবলী</a></li>
-                            
-                            <li><a class="dropdown-item" href="#"><i class="fa-light fa-memo-pad icon-color"></i> প্রাইভেসি পলিসি</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -87,7 +79,7 @@
                         </a>
                         <ul class="dropdown-menu border-0">
                         <li><a class="dropdown-item" href="#"><i class="fa-light fa-arrows-repeat icon-color"></i> ভাষা পরিবর্তন </a></li>
-                        <li><a class="dropdown-item" href="#"> <i class="fa-light fa-lock-keyhole icon-color"></i> পিন পরিবর্তন </a></li>
+                        <li><a class="dropdown-item" href="{{route('passChang')}}"> <i class="fa-light fa-lock-keyhole icon-color"></i> পিন পরিবর্তন </a></li>
                         <li><a class="dropdown-item" href="#"><i class="fa-light fa-user-slash icon-color"></i> অ্যাকাউন্ট স্থগিত করুন</a></li>
                         </ul>
                     </li>
@@ -204,7 +196,7 @@
             <!-- card-part -->
             <div class="row text-center mt-3">
                 <div class="col-4 mt-3">
-                    <a href="">
+                    <a href="{{route('rechargForm')}}">
                         <div class="card text-bg-light py-4 border-0 shadow">
                             <i class="fa-solid fa-mobile-screen fa-2xl mt-2 icon-color"></i>
                             <p class="mb-0 mt-4"> মোবাইল রিচার্জ</p> 
@@ -212,7 +204,7 @@
                     </a>
                 </div>
                 <div class="col-4 mt-3">
-                    <a href="{{route('bankForm')}}">
+                    <a href="{{route('logoPage')}}">
                         <div class="card text-bg-light py-4 border-0 shadow">
                             <i class="fa-regular fa-building-columns fa-2xl mt-2 icon-color"></i>
                             <p class="mb-0 mt-4">মোবাইল ব্যাংকিং</p> 
@@ -240,10 +232,10 @@
                     </a>
                 </div>
                 <div class="col-4 mt-3">
-                    <a href="{{route('shopingPage')}}">
+                    <a href="{{route('dailyReport')}}">
                         <div class="card text-bg-light py-4 border-0 shadow">
-                            <i class="fa-regular fa-cart-shopping-fast fa-2xl mt-2 icon-color"></i>
-                            <p class="mb-0 mt-4"> বেচা বিক্রি</p> 
+                            <i class="fa-regular fa-clipboard-list  fa-2xl mt-2 icon-color"></i>
+                            <p class="mb-0 mt-4"> রিপোর্ট</p> 
                         </div>
                     </a>
                 </div>

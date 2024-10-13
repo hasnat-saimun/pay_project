@@ -1,6 +1,6 @@
 @extends('marchent.nav&hover')
 @section('chevron')
-    <a href="{{route('viewHome')}}">
+    <a href="{{route('logoPage')}}">
     <i class="fa-solid fa-chevron-left fa-lg nav-icon"></i>
     </a>
 @endsection 

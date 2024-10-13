@@ -13,11 +13,22 @@ class marchentControl extends Controller
     public function viewHome(){
         return view('marchent.home');
     }
+    // moblile recharge str
+    public function rechargForm(){
+        return view('marchent.mobileRecharge.rechargeForm'); //mobile recharge form
+    }
+     // moblile recharge end 
+
     // bank form str
     public function bankForm(){
-        return view('marchent.mobileBank.bankForm');
+        return view('marchent.mobileBank.bankForm'); //bank logo form
+    }
+
+    public function logoPage(){
+        return view('marchent.mobileBank.logoPage'); // logo form
     }
     // bank form end
+
     //pay bil str
     public function bilCom(){
         return view('marchent.bilPay.bilCompany');
@@ -37,4 +48,22 @@ class marchentControl extends Controller
         return view('marchent.shoping.shop');
     }  
     ///ticket end
+
+    //menu part str
+    public function bankInfo(){
+        return view('marchent.menuPage.bankInfo'); //bank info
+    }  
+
+    public function hotlinePage(){
+        return view('marchent.menuPage.hotlinePage');//hotline
+    }  
+    public function rulsePage(){
+        return view('marchent.menuPage.rulsePage');//rulse
+    }  
+
+    public function passChang(){
+        return view('marchent.menuPage.passPage');//password change page
+    }  
+
+    //menu part end
 }
