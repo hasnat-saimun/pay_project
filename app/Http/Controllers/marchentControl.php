@@ -66,4 +66,16 @@ class marchentControl extends Controller
     }  
 
     //menu part end
+
+    // profile page str
+    public function profilePage(){
+        return view('marchent.profile');//profile page
+    }  
+    //profile page end
+
+    //nid page str
+    public function nidPage(){
+        return view('marchent.nidForm');//profile page
+    }  
+    //nid page end
 }

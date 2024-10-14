@@ -17,7 +17,6 @@
             <div class="row align-items-center text-white">
                 <div class="col-1 text-end">
                     @yield('chevron')
-                
                 </div>
                 <div class="col-7">
                     @yield('navText')
@@ -49,25 +48,25 @@
         </div>
 
     <!-- fotter -->
-    <div class="card border-0 fixed-bottom">
+    <div class="card border-0 fixed-bottom ">
             <div class="card-footer ">
-                <div class="row">
+                <div class="row mt-2">
                     
                     <div class="col-4 text-center ">
-                    <a class="icon-color"href="{{route('viewHome')}}">
-                        <i class="fa-solid fa-user-gear  " ></i>
+                    <a class="icon-color"href="{{route('profilePage')}}">
+                        <i class="fa-solid fa-user-gear  fa-xl" ></i>
                         <p class="card-text mt-1 " >প্রোফাইল </p>
                     </a>
                     </div>
                     <div class="col-4 text-center">
                     <a class="icon-color"href="{{route('viewHome')}}">
-                        <i class="fa-duotone fa-solid fa-house-user " style="--fa-primary-color: #131fbb; --fa-secondary-color: #f09999;"></i>
+                        <i class="fa-duotone fa-solid fa-xl fa-house-user " style="--fa-primary-color: #131fbb; --fa-secondary-color: #f09999;"></i>
                         <p class="card-text mt-1 icon-color" >হোম</p>
                     </a>
                     </div>
                     <div class="col-4 text-center icon-color">
                     <a class="icon-color"href="{{route('viewHome')}}">
-                        <i class="fa-solid fa-arrow-right-from-bracket fa-flip-horizontal"></i>
+                        <i class="fa-solid fa-arrow-right-from-bracket fa-xl fa-flip-horizontal"></i>
                         <p class="card-text mt-1" >লগ আউট</p>
                     </a>
                     </div>

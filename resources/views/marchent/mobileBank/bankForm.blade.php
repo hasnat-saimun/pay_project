@@ -10,6 +10,8 @@
 <span>রিপোর্ট</span>
 @endsection
 <div class="container fixed-margin1">
+    <div class="row">
+        <div class="col-8 mx-auto">
     <div class="card text-bg-light p-2 border-0 shadow">
         <form>
             <div class="mb-2">
@@ -29,5 +31,7 @@
                 <button class="btn btn-primary btn-color btn-sm" type="button">জমা করুন</button>
             </div>
         </form>
+    </div>
+        </div>
     </div>
 </div>

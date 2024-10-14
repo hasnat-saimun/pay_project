@@ -12,6 +12,8 @@
 
 
 <div class="container fixed-margin1">
+    <div class="row">
+    <div class="col-10 mx-auto">
     <div class="card text-bg-light p-2 border-0 shadow">
         <form>
             <div class="mb-2">
@@ -65,4 +67,6 @@
             </div>
         </form>
     </div>
+</div>
+</div>
 </div>

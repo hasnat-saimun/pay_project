@@ -28,6 +28,16 @@ Route::get('/marchent/view/page',[
     'as'   =>'viewHome'
 ]);
 
+Route::get('/marchent/profile/view',[       
+    'uses' => 'marchentControl@profilePage', ///  profile  page
+    'as'   =>'profilePage'
+]);
+
+Route::get('/marchent/nid/submit',[       
+    'uses' => 'marchentControl@nidPage', ///  nid  page
+    'as'   =>'nidPage'
+]);
+
 Route::get('/marchent/bil/page',[       
     'uses' => 'marchentControl@bilCom', // bilPay page 
     'as'   =>'bilCom'
